@@ -1,0 +1,24 @@
+{
+    "name": "adamwathan/project",
+    "authors": [
+        {
+            "name": "Adam Wathan",
+            "email": "adam.wathan@gmail.com"
+        }
+    ],
+    "require": {
+        "wikimedia/composer-merge-plugin": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AdamWathan\\Package\\": "./../package/src"
+        }
+    },
+    "extra": {
+        "merge-plugin": {
+            "include": [
+                "./../package/composer.json"
+            ]
+        }
+    }
+}

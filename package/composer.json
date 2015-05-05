@@ -1,0 +1,17 @@
+{
+    "name": "adamwathan/package",
+    "require": {
+        "illuminate/support": "~5.0"
+    },
+    "authors": [
+        {
+            "name": "Adam Wathan",
+            "email": "adam.wathan@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AdamWathan\\Package\\": "src/"
+        }
+    }
+}
